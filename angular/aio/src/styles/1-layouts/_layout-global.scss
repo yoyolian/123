@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+l-relative {
+    position: relative;
+}
+
+.l-clearfix:after, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.is-visible {
+    display: block!important;
+}
+
+.l-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+    justify-content: center;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
